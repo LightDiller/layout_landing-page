@@ -1,0 +1,30 @@
+.header{
+  box-sizing: border-box;
+    height: 100vh;
+    background-image: url(../img/header-bg.png);
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header__bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+
+.header__title{
+  font-style: bold;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: -1.5px;
+  color: white;
+  text-align: center;
+  min-width: 280px;
+  margin: 0;
+}
