@@ -1,22 +1,17 @@
 .page{
-    font-family: "Cinzel", serif;
-    color: #161616;
-    font-weight: 700;
-
-    scroll-behavior: smooth;
-
-    &__body{
-  margin: 0;
+  font-family: Cinzel, serif;
+  &__body{
+    margin: 0;
 }
 
-&__burger-menu{
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+  &__burger-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 
-  opacity: 0;
-  pointer-events: none;
+    opacity: 0;
+    pointer-events: none;
 
     &:target{
     opacity: 1;

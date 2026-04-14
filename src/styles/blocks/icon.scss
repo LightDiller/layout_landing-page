@@ -2,16 +2,24 @@
   display: block;
   width: 24px;
   height: 24px;
+  background-size: cover;
+
+  @media (min-width: 576px) {
+    width: 32px;
+    height: 32px;
+  }
+
+  &--phone{
+    background-image: url(/src/styles/img/icons/Icon-Phone-call.png);
+  }
+
+  &--menu{
+    background-image: url(/src/styles/img/icons/Icon-Burger-menu.png);
+  }
+
+  &--close{
+    background-image: url(/src/styles/img/icons/Icon-Close.png);
+  }
 }
 
-.icon--phone{
-  background-image: url(../img/icons/Icon-Phone-call.png);
-}
 
-.icon--menu{
-  background-image: url(../img/icons/Icon-Burger-menu.png);
-}
-
-.icon--close{
-  background-image: url(../img/icons/Icon-Close.png);
-}

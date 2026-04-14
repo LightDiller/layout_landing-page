@@ -1,0 +1,41 @@
+.section-title{
+  @include title-text;
+  justify-self: center;
+  margin-top: 100px;
+  text-align: center;
+  grid-row: 1 / -1;
+
+
+  &__eye-brow{
+    font-size: 12px;
+    margin: 0;
+  }
+
+  &__main{
+  font-size: 32px;
+  margin: 0;
+
+
+  &--align-left{
+    align-self: start;
+
+  }
+  @include onTablet{
+  font-size: 48px;
+    }
+  }
+
+  &__description{
+    @include description-text;
+
+  }
+
+  @include onTablet{
+  margin-top: 140px;
+  }
+
+}
+
+
+
+

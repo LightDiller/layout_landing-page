@@ -1,0 +1,29 @@
+@mixin onTablet{
+  @media (min-width: $tablet-min-width) {
+    @content;
+  }
+}
+
+@mixin onDesktop{
+  @media (min-width: $desktop-min-width) {
+    @content;
+  }
+}
+
+@mixin title-text{
+color: #161616;
+font-weight: 700;
+margin: 0;
+}
+
+@mixin description-text{
+color: #161616;
+font-weight: 400;
+line-height: 27px;
+margin: 0;
+text-align: center;
+}
+
+@mixin grid{
+  row-gap: 24px;
+}

@@ -1,7 +1,11 @@
-@import url(blocks/page.scss);
-@import url(blocks/header.scss);
-@import url(blocks/topbar.scss);
-@import url(blocks/burger.scss);
-@import url(blocks/icon.scss);
-@import url(blocks/nav.scss)
+@import "variables";
+@import "mixins";
+@import "blocks/header";
+@import "blocks/page";
+@import "blocks/topbar";
+@import "blocks/burger";
+@import "blocks/icon";
+@import "blocks/nav";
+@import "blocks/section-title";
+@import "blocks/about-us";
 
