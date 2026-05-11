@@ -1,25 +1,26 @@
-.icon{
+.icon {
   display: block;
   width: 24px;
   height: 24px;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 
-  @media (min-width: 576px) {
-    width: 32px;
-    height: 32px;
+  @include anim-time(transform, scale(1.4));
+
+  &--phone {
+    background-image: url(./img/icons/Icon-Phone-call.svg);
+    
   }
 
-  &--phone{
-    background-image: url(/src/styles/img/icons/Icon-Phone-call.png);
+  &--menu {
+    background-image: url(./img/icons/Icon-Burger-menu.svg);
+      &:hover{
+    background-image: url(./img/icons/Icon-Burger-menu-open.svg);
+  }
   }
 
-  &--menu{
-    background-image: url(/src/styles/img/icons/Icon-Burger-menu.png);
-  }
-
-  &--close{
-    background-image: url(/src/styles/img/icons/Icon-Close.png);
+  &--close {
+    background-image: url(./img/icons/Icon-Close.svg);
   }
 }
-
-

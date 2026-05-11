@@ -1,0 +1,33 @@
+.contact-card{
+  display: block;
+  position: absolute;
+  right: 15%;
+  transition: all 0.3s;
+  transform: translateY(-120%);
+  opacity: 0;
+
+  &:target{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+
+
+  &__link{
+    text-decoration: none;
+    color: inherit;
+
+    @include anim-time (color, #AE1C23)
+  }
+
+  &__number{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: end;
+    color: #fff;
+    margin: 0;
+  }
+}
+
+
