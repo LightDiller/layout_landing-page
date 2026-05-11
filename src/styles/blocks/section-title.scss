@@ -18,6 +18,7 @@
 
   &__main {
     @include main-title-text;
+
     font-size: $main-title;
     margin: 0;
     width: 100%;
@@ -40,8 +41,5 @@
   max-width: 100%;
   justify-self: center;
   padding-top:8px;
-  }
-
-  @include on-tablet {
   }
 }

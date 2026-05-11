@@ -1,7 +1,6 @@
 .now-on-view {
  @include section-column-center;
 
-
   &__wrapper{
     display: grid;
     row-gap: 48px;
@@ -10,6 +9,7 @@
 
   &__images {
     @include page-grid;
+
     margin: 0;
     justify-self: center;
 
@@ -18,20 +18,20 @@
     grid-template-columns: repeat(3, 1fr);
     grid-column: 1 / -1;
     gap: 8px;
-    @include on-tablet{
-      grid-template-columns: repeat(2, 1fr);
-      .now-on-view__image-border:last-child{
-        display: none;
-      }
-    }
+
+        @include on-tablet{
+          grid-template-columns: repeat(2, 1fr);
+          .now-on-view__image-border:last-child{
+            display: none;
+          }
+        }
+
         @include on-desktop{
-      grid-template-columns: repeat(3, 1fr);
-      .now-on-view__image-border:last-child{
+        grid-template-columns: repeat(3, 1fr);
+        .now-on-view__image-border:last-child{
         display: block;
-    }
-  }
-
-
+        }
+      }
     }
   }
 
@@ -41,26 +41,28 @@
     align-items: start;
     aspect-ratio: 1 / 1;
     overflow: hidden;
-    @include anim-time (transform, scale(1.05));
 
+    @include anim-time (transform, scale(1.05));
 
     &--large{
       @include on-tablet{
-
         grid-column: span 4;
         aspect-ratio: 2.07 / 1;
         transform: scale(1);
         min-height: 184px;
       }
+
       @include on-desktop{
         grid-column: span 8;
       }
     }
+
     &--square{
       @include on-tablet{
         height: min-content;
         grid-column: span 2;
       }
+
       @include on-desktop{
         grid-column: span 4;
       }
@@ -110,12 +112,14 @@
 
   &__present-description {
     @include description-text;
+    
     margin: 0;
   }
 
   &__button {
     @include button;
     @include button-hover;
+
     justify-self: center;
 
     @include on-desktop{

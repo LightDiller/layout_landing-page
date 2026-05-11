@@ -1,14 +1,12 @@
 .explore-online {
 @include section-column-center;
+
   width: 100%;
 
   &__content {
    @include page-grid;
+
     row-gap: 48px;
-
-
-    @include on-desktop{
-    }
   }
 
   &__sec-title{
@@ -16,9 +14,9 @@
   }
 
   &__image {
-    width: 100%;
     @include anim-time (transform, scale(1.05));
 
+    width: 100%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
 

@@ -104,6 +104,7 @@
   &__button {
     @include button;
     @include button-hover;
+    
     @include on-desktop{
       width: 410px;
     }
