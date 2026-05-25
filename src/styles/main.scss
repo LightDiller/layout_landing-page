@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -10,11 +10,11 @@ body {
   position: relative;
   z-index: 1;
   background-color: white;
-  padding:40px 0;
+  padding: 40px 0;
 
-  &__content{
-  display: grid;
-  row-gap: 100px;
+  &__content {
+    display: grid;
+    row-gap: 100px;
 
     @include on-tablet {
       row-gap: 140px;

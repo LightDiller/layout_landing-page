@@ -11,7 +11,7 @@
   &--phone {
     position: relative;
     background-image: url(./img/icons/Icon-Phone-call.svg);
-    &:hover + .contact-card{
+    &:hover + .contact-card {
       opacity: 1;
       transform: translateY(0);
     }
@@ -19,9 +19,9 @@
 
   &--menu {
     background-image: url(./img/icons/Icon-Burger-menu.svg);
-      &:hover{
-    background-image: url(./img/icons/Icon-Burger-menu-open.svg);
-  }
+    &:hover {
+      background-image: url(./img/icons/Icon-Burger-menu-open.svg);
+    }
   }
 
   &--close {

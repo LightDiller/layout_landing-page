@@ -9,13 +9,13 @@
   z-index: -1;
   bottom: 0;
 
-  @include on-tablet{
+  @include on-tablet {
     height: 360px;
     background-size: 1260px auto;
     background-position: 65% 50%;
   }
 
-  @include on-desktop{
+  @include on-desktop {
     background-size: cover;
   }
 }

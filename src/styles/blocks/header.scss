@@ -3,14 +3,11 @@
   background-size: cover;
   background-position: center;
 
-
-
-  &__content{
-  display: flex;
-  flex-direction: column;
-  box-sizing: border-box;
-  height: 100vh;
-
+  &__content {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100vh;
   }
 
   &__bottom {
@@ -22,7 +19,7 @@
 
   &__title {
     @include main-title-text;
-    
+
     padding-top: 140px;
     font-size: 40px;
     line-height: 100%;
@@ -32,12 +29,12 @@
     min-width: 280px;
     margin: 0;
 
-    @include on-tablet{
+    @include on-tablet {
       font-size: 64px;
       line-height: 64px;
     }
 
-    @include on-desktop{
+    @include on-desktop {
       font-size: 80px;
       line-height: 80px;
       padding-top: 80px;

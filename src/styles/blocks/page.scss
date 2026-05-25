@@ -3,7 +3,7 @@
   position: relative;
 
   &:has(.page__burger-menu:target) {
-  overflow: hidden; /* отключает прокрутку страницы */
+    overflow: hidden; /* отключает прокрутку страницы */
   }
 
   &__body {
@@ -17,7 +17,6 @@
     top: 0;
     left: 0;
     right: 0;
-
 
     transition: all 0.3s;
     transform: translateX(-100%);

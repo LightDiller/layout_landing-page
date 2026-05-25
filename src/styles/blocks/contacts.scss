@@ -3,52 +3,39 @@
 
   &__content {
     @include page-grid;
-    margin-inline:ato ;
   }
 
-  &__addresses{
+  &__addresses {
     align-self: start;
     width: fit-content;
     grid-column: 1 / -1;
 
-     @include on-tablet{
+    @include on-tablet {
       grid-column: 1 / 4;
-     }
+    }
 
-     @include on-desktop{
+    @include on-desktop {
       grid-column: 1 / 7;
       display: flex;
       gap: 24px;
-     }
+    }
   }
 
-  &__forms{
+  &__forms {
     grid-column: 1 / -1;
 
-    @include on-tablet{
+    @include on-tablet {
       grid-column: 4 / -1;
-     }
+    }
 
-     @include on-desktop{
-      grid-column: 7 / -1;
-     }
+    @include on-desktop {
+      grid-column: 8 / -1;
+    }
   }
 
   &__info {
     padding-top: 48px;
     width: 280px;
-
-
-  }
-
-  &__forms{
-      width: 100%;
-      min-width: 280px;
-      max-width: 290px;
-
-     @include on-desktop{
-      width: 410px;
-    }
   }
 
 
@@ -67,7 +54,7 @@
 
   &__description {
     @include main-title-text;
-    @include anim-time (color, #AE1C23);
+    @include anim-time(color, #ae1c23);
 
     letter-spacing: 0;
     line-height: 27px;
@@ -90,20 +77,19 @@
     line-height: 20px;
     padding-left: 10px;
 
-
-    &:hover::placeholder{
+    &:hover::placeholder {
       color: #1d1d1d;
     }
 
     &:focus,
-    &:focus-visible{
+    &:focus-visible {
       outline: none;
       box-shadow: none;
       border: 1px solid #1d1d1d;
       border-radius: 0;
     }
 
-    @include on-desktop{
+    @include on-desktop {
       width: 410px;
     }
 
@@ -117,7 +103,7 @@
     @include button;
     @include button-hover;
 
-    @include on-desktop{
+    @include on-desktop {
       width: 410px;
     }
   }

@@ -10,7 +10,7 @@
   &__content {
     margin-top: 40px;
 
-    @include on-desktop{
+    @include on-desktop {
       margin-top: 55px;
     }
   }

@@ -18,7 +18,7 @@
     line-height: 22px;
     letter-spacing: 2px;
 
-    &::after{
+    &::after {
       content: '';
       position: absolute;
       display: block;
@@ -31,7 +31,7 @@
       transform-origin: left;
     }
 
-    &:hover::after{
+    &:hover::after {
       transform: scale(1);
     }
   }
