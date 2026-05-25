@@ -42,7 +42,7 @@
     aspect-ratio: 1 / 1;
     overflow: hidden;
 
-    @include anim-time (transform, scale(1.05));
+    @include anim-time (transform, scale(1.02));
 
     &--large{
       @include on-tablet{
@@ -112,7 +112,7 @@
 
   &__present-description {
     @include description-text;
-    
+
     margin: 0;
   }
 

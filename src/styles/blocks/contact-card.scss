@@ -6,12 +6,6 @@
   transform: translateY(-120%);
   opacity: 0;
 
-  &:target{
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
-  }
-
 
   &__link{
     text-decoration: none;

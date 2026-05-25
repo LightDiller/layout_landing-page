@@ -9,8 +9,12 @@
   @include anim-time(transform, scale(1.4));
 
   &--phone {
+    position: relative;
     background-image: url(./img/icons/Icon-Phone-call.svg);
-    
+    &:hover + .contact-card{
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 
   &--menu {
