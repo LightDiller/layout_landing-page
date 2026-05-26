@@ -9,6 +9,14 @@
     padding-top: 50px;
   }
 
+  &__logo{
+    width: 64px;
+
+    @include on-tablet{
+      width: 87px;
+    }
+  }
+
   &__icons {
     display: flex;
     gap: 24px;

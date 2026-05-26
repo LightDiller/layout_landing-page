@@ -13,7 +13,7 @@
     background-image: url(./img/icons/Icon-Phone-call.svg);
     &:hover + .contact-card {
       opacity: 1;
-      transform: translateY(0);
+      transform: translate( 20% ,-40%);;
     }
   }
 
